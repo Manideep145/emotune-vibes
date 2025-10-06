@@ -1,0 +1,19 @@
+# Python Dependencies for EmoTune Backend
+
+# Computer Vision
+opencv-python==4.8.1.78
+
+# Deep Learning
+tensorflow==2.15.0
+# or use tensorflow-cpu==2.15.0 for CPU-only version (smaller, faster install)
+
+# Numerical Computing
+numpy==1.24.3
+
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# Optional: For better performance
+# mediapipe==0.10.8  # Alternative face detection
+# onnxruntime==1.16.3  # Faster inference
