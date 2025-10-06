@@ -57,6 +57,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        emotion: {
+          happy: "hsl(var(--emotion-happy))",
+          sad: "hsl(var(--emotion-sad))",
+          angry: "hsl(var(--emotion-angry))",
+          calm: "hsl(var(--emotion-calm))",
+          neutral: "hsl(var(--emotion-neutral))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
